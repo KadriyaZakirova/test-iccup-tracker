@@ -1,0 +1,1595 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://iccup.com/bugtracker/5243 -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>iCCup — Абаддон/пасивка</title>
+
+    <meta name="webmoney.attestation.label" content="webmoney attestation label#A6711CB7-3A2D-4A3C-A11F-801E0FF2CBAA">
+    <meta name="keywords"
+        content="iCCup, StarCraft, BroodWar, WarCraft, WarCraft 3, Frozen, Throne, DotA, AllStars, Dota 1, Download Dota, Game, Heroes, items, online, update, Defense, Ancients">
+    <meta name="description"
+        content="DotA AllStars - игра на очки, антихак, полная статистика игр и сервера с бесплатными хост ботами. Минимальный пинг - лучшее место для игры в доту.">
+    <meta name="yandex-verification" content="7e707ff66affad65">
+    <meta name="google-site-verification" content="EPrrr2Te3H0s2-EKr87mj-MYNj55HtwqyidjdmlITOg">
+    <meta name="enot" content="120161184340232Q39HZP7rdebGfHmYj6VmzRF2Bg7uBf">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:image" content="/templates/images/preview.jpg">
+    <!--<base href="//iccup.com/">-->
+    <base href=".">
+    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://iccup.com/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" href="https://iccup.com/favicon.png" sizes="32x32">
+    <link rel="preload" href="https://iccup.com/templates/fonts/manropebold.woff2" as="font" type="font/woff">
+    <link rel="preload" href="https://iccup.com/templates/fonts/manropesemibold.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="https://iccup.com/templates/fonts/manropemedium.woff2" as="font" type="font/woff2">
+
+    <style>
+        @font-face {
+            font-family: 'Manrope';
+            src:
+                url('./templates/fonts/manropemedium.woff2') format("woff2");
+            font-weight: 500;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Manrope';
+            src:
+                url('./templates/fonts/manropesemibold.woff2') format("woff2");
+            font-weight: 600;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: 'Manrope';
+            src:
+                url('./templates/fonts/manropebold.woff2') format("woff2");
+            font-weight: 700;
+            font-display: swap;
+        }
+    </style>
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/right.css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/drop-menu.css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/themes.css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/loader.css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/style.css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/dropzone.css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/style(1).css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/mobile.css" type="text/css">
+    <link rel="stylesheet" href="./iCCup — Bug tracker_files/responsive.css" type="text/css">
+
+
+    <meta name="d41d8cd98f00b204e9800998ecf8427e_lib_detect" id="d41d8cd98f00b204e9800998ecf8427e_lib_detect"
+        content="jQuery:3.3.1,jQuery (Fast path):,MooTools:1.2.4,Mustache:0.7.2">
+    <script src="chrome-extension://cgaocdmhkmfnkdkbnckgmpopcbpaaejo/library/libraries.js"></script>
+    <script src="chrome-extension://cgaocdmhkmfnkdkbnckgmpopcbpaaejo/content_scripts/lib_detect.js"></script>
+</head>
+
+<body>
+    <div class="im-l image-left" id="imageBgLeft" style="display: block; width: 4530px; right: 1444px;">
+        <span></span>
+    </div>
+    <div class="im-r image-right" id="imageBgRight" style="display: block; width: 4530px; left: 1444px;">
+        <span></span>
+    </div>
+
+
+
+    <div class="mainTopBanner"></div>
+    <header class="header">
+        <div class="header__wrapper _container">
+            <div class="header__menu">
+                <ul class="menu__list" data-spoilers="991,max">
+
+                    <li class="menu__item">
+                        <a class="menu__link " href="https://iccup.com/">
+                            <span>Главная</span>
+                        </a>
+                        <span class="menu__arrow menu__arrow-top" data-spoiler="" tabindex="-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="3.27 6.6 13.47 7.63">
+                                <path d="M15.833 7.5L10 13.334 4.167 7.5" stroke="#3A3A3A" stroke-width="1.8"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/content/news.html" class="menu__sub-link">Новости</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="https://iccup.com/dota/" class="menu__link ">DotA</a>
+                        <span class="menu__arrow menu__arrow-top" data-spoiler="" tabindex="-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="3.27 6.6 13.47 7.63">
+                                <path d="M15.833 7.5L10 13.334 4.167 7.5" stroke="#3A3A3A" stroke-width="1.8"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/dota/ladder.html" class="menu__sub-link">Рейтинг</a>
+                                <span class="menu__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="3.27 6.6 13.47 7.63">
+                                        <path d="M15.833 7.5L10 13.334 4.167 7.5" stroke="#3A3A3A" stroke-width="1.8"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                                <ul class="menu__sub-list">
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/dota/ladder/5x5.html" class="menu__sub-link">Рейтинг
+                                            5x5</a>
+                                    </li>
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/dota/ladder/elite/" class="menu__sub-link">Рейтинг
+                                            элиты</a>
+                                    </li>
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/dota/ladder/country/" class="menu__sub-link">Рейтинг
+                                            стран</a>
+                                    </li>
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/dota/teams.html" class="menu__sub-link">Рейтинг
+                                            команд</a>
+                                    </li>
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/rating.html" class="menu__sub-link">Рейтинг опыта</a>
+                                    </li>
+                                </ul>
+
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/tourney.html" class="menu__sub-link">Турниры</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/files.html" class="menu__sub-link">Файлы</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/bugtracker/" class="menu__sub-link">
+                                    Багтрекер
+                                </a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/guides/" class="menu__sub-link">
+                                    Инфобаза
+                                </a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/statistics/" class="menu__sub-link">
+                                    Стата</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/basic_rules.html" class="menu__sub-link">Правила</a>
+                                <span class="menu__arrow">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="3.27 6.6 13.47 7.63">
+                                        <path d="M15.833 7.5L10 13.334 4.167 7.5" stroke="#3A3A3A" stroke-width="1.8"
+                                            stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                </span>
+                                <ul class="menu__sub-list sub-list__rules">
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/dota/forum_rules.html" class="menu__sub-link">Правила
+                                            форума</a>
+                                    </li>
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/dota/dota_basic_rules.html"
+                                            class="menu__sub-link">Базовые правила чата</a>
+                                    </li>
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/dota/ap_ladder_rules.html"
+                                            class="menu__sub-link">Ладер правила</a>
+                                    </li>
+                                    <li class="menu__sub-item">
+                                        <a href="https://iccup.com/faq_for_appeals.html" class="menu__sub-link">Как
+                                            подавать жалобы</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/dota/replays.html" class="menu__sub-link">Реплеи</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="menu__item">
+                        <a href="https://iccup.com/community/" class="menu__link">Форум</a>
+                        <span class="menu__arrow menu__arrow-top" data-spoiler="" tabindex="-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="3.27 6.6 13.47 7.63">
+                                <path d="M15.833 7.5L10 13.334 4.167 7.5" stroke="#3A3A3A" stroke-width="1.8"
+                                    stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </span>
+                        <ul class="menu__sub-list">
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/community/725-dota_allstars.html" class="menu__sub-link">DotA
+                                    Форум</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/community/437-dota_iccup_%D1%82%D1%83%D1%80%D0%BD%D0%B8%D1%80%D1%8B.html"
+                                    class="menu__sub-link">Турниры</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/community/408-%D0%BE%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D0%BE%2C_%D1%84%D0%BB%D0%B5%D0%B9%D0%BC_%2818%2B%29.html"
+                                    class="menu__sub-link">Флейм</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/community/415-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F.html"
+                                    class="menu__sub-link">Предложения</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/community/947-warcraft_iii_%28custom_games%29.html"
+                                    class="menu__sub-link">Custom Games</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/community/701-%D0%BA%D0%BE%D0%BD%D0%BA%D1%83%D1%80%D1%81%D1%8B.html"
+                                    class="menu__sub-link">Конкурсы</a>
+                            </li>
+                            <li class="menu__sub-item">
+                                <a href="https://iccup.com/community/964-%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5_%D0%B7%D0%B0%D1%80%D0%B0%D0%B7%D0%BD%D0%BE%D0%B5.html"
+                                    class="menu__sub-link">Разное</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link " href="https://iccup.com/support_user/">
+                            Поддержка</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link menu__link-store " href="https://iccup.com/store/category/6.html">
+                            <span class="menu-cups"></span> Магазин</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="header__msg">
+                <a href="javascript:void(0)" id="openhistory" class="msg-history">&nbsp;</a>
+                <div class="user-message">
+                    <p class="user-message__body" title="Heroes of the Storm">
+                        <span class="user-message-icon d-flex">
+                            <button class="icon1" id="add-plus"></button>
+                            <span>+<b rel="7229" id="ratingNum">30</b></span>
+                        </span>
+                        <span class="u-msg-flag d-flex align-items-center"><a
+                                href="https://iccup.com/dota/ladder/5x5/soviet.html" title="Soviet"><img
+                                    src="./iCCup — Абаддон_пасивка_files/soviet.gif" alt="SOVIET"
+                                    class="user--flag"></a></span>
+                        <span class="u-msg-login">iCCup.CLAY:</span>
+                        <a href="https://iccup.com/en/community/thread/1626920/page1.html" class="u-msg-link">
+                            Heroes of the Storm
+                        </a>
+                    </p>
+                    <a href="https://iccup.com/store/buyItem/74/step1.html" class="user-message-add">+</a>
+                    <div class="history-list flex-column">
+                        <div class="history-content d-flex flex-column" id="history">
+                            <div class="single-msg"> <span class="icon7"></span> <span class="msg-likes">+27</span>
+                                <span class="msg-text">tujhktnjd:<a
+                                        href="https://iccup.com/dota/gamingprofile/tujhktnjd">мипо возвращается, это
+                                        камбек</a></span>
+                            </div>
+                            <div class="single-msg"> <span class="icon12"></span> <span class="msg-likes">+1</span>
+                                <span class="msg-text"><a href="https://iccup.com/dota/gamingprofile/ChitayuKartu">С
+                                        днем рождением братан)</a></span>
+                            </div>
+                            <div class="single-msg"> <span class="icon1"></span> <span class="msg-likes">+4</span> <span
+                                    class="msg-text"><a href="https://iccup.com/community/thread/1626432.html">Quiz:
+                                        Today, at 20:00 Moscow time, GL to every1.</a></span> </div>
+                            <div class="single-msg"> <span class="icon1"></span> <span class="msg-likes">+3</span> <span
+                                    class="msg-text"><a href="https://iccup.com/dota/teams/163185">Принимаю Болше
+                                        10к</a></span> </div>
+                            <div class="single-msg"> <span class="icon6"></span> <span class="msg-likes">+3</span> <span
+                                    class="msg-text"><a href="https://iccup.com/community/thread/1597309.html">ТОПОВЫЙ
+                                        ФЛАГ ПЛАТФОРМЫ</a></span> </div>
+                        </div>
+                        <div class="msg-footer d-flex">
+                            <a href="https://iccup.com/msglog"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__search">
+                <a href="https://iccup.com/support.html" class="header-admin header-admin__support"
+                    title="Support panel">
+                    <img src="./iCCup — Абаддон_пасивка_files/header-support.svg" alt="support">
+                </a>
+                <a href="https://iccup.com/admin/" class="header-admin" title="Admin panel">
+                    <img src="./iCCup — Абаддон_пасивка_files/header-admin.svg" alt="admin">
+                </a>
+                <button type="button" class="header__search-btn" title="Search">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                        <path
+                            d="M497.938 430.063l-126.914-126.91C389.287 272.988 400 237.762 400 200 400 89.719 310.281 0 200 0S0 89.719 0 200s89.719 200 200 200c37.762 0 72.984-10.711 103.148-28.973l126.914 126.91C439.438 507.313 451.719 512 464 512c12.281 0 24.563-4.688 33.938-14.063 18.75-18.742 18.75-49.132 0-67.874zM64 200c0-74.992 61.016-136 136-136s136 61.008 136 136-61.016 136-136 136S64 274.992 64 200z">
+                        </path>
+                    </svg>
+                </button>
+                <div class="search-modal" data-close="true">
+                    <div class="modal-body">
+                        <form method="GET" action="https://iccup.com/search.html">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="search" maxlength="50"
+                                    placeholder="Введите текст...">
+                                <button class="btn btn-primary" type="submit">Искать</button>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox1" value="0"
+                                    name="search-sel" checked="">
+                                <label class="form-check-label" for="inlineCheckbox1">игроки</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox2" value="1"
+                                    name="search-sel">
+                                <label class="form-check-label" for="inlineCheckbox2">кланы</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="inlineCheckbox3" value="2"
+                                    name="search-sel">
+                                <label class="form-check-label" for="inlineCheckbox3">по сайту</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="header__flags">
+                <button type="button" class="header__flag-btn flag-ru">
+                    <svg class="flags-arrow" width="9" height="5" viewBox="0 0 9 5" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.46405 5L0.5 6.93257e-07L8.42993 0L4.46405 5Z" fill="#828282"></path>
+                    </svg>
+                </button>
+                <div class="flags-modal" data-close="true">
+                    <div class="modal-body">
+                        <a href="https://iccup.com/ru/bugtracker/5243" class="flags-link hidden"><i
+                                class="flag-ru"></i></a>
+                        <a href="https://iccup.com/en/bugtracker/5243" class="flags-link "><i class="flag-en"></i></a>
+                        <a href="https://iccup.com/uz/bugtracker/5243" class="flags-link "><i class="flag-uz"></i></a>
+                        <a href="https://iccup.com/kz/bugtracker/5243" class="flags-link "><i class="flag-kz"></i></a>
+                        <a href="https://iccup.com/tr/bugtracker/5243" class="flags-link "><i class="flag-tr"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="hamburger hamburger--slider justify-content-center ham-none ml-auto ">
+                <div class="hamburger-box">
+                    <div class="hamburger-inner"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="level0" class="level0">
+
+        <div id="head1" class="primary-section"
+            style="background:#3a3a3a url(&#39;/templates/images/logo-bg.jpg?xmas&#39;) no-repeat left top;">
+            <div class="logotype"><a href="https://iccup.com/"></a></div>
+            <div class="logotype-0"><a href="https://iccup.com/"></a></div>
+            <div class="auth-section">
+                <form method="post">
+                    <header class="auth-header">
+                        <div class="auth-user"><a href="https://iccup.com/dota/ladder/5x5/flux.html" title="Flux"><img
+                                    src="./iCCup — Абаддон_пасивка_files/flux.gif" alt="FLUX" class="user--flag"></a> <a
+                                href="https://iccup.com/gamingprofile/leesang.html" id="u-nl">leesang</a></div>
+                        <div class="auth-logout">
+                            <input type="submit" name="dologout" value="Выйти" class="auth-button-exit">
+                        </div>
+                        <a class="header-cups" href="https://iccup.com/store/billing/">86390</a>
+                    </header>
+                    <div class="auth-account-panel">
+                        <a href="https://iccup.com/" class="auth-panel-item enable" title="Pro Account Enabled">
+                            <span>Pro acc</span>
+                            <span class="panel-item-full" style="background-position: -155px 0">
+                                <span class="panel-item-left"></span>
+                            </span>
+                        </a>
+                        <a href="https://iccup.com/store/buyItem/33/step1.html" class="auth-panel-item disable"
+                            title="Enable Armor Bonus">
+                            <span>Armor off</span>
+                            <span class="panel-item-full">
+                                <span class="panel-item-left"></span>
+                            </span>
+                        </a>
+                        <a href="https://iccup.com/store/buyItem/27/step1.html" class="auth-panel-item disable"
+                            title="Bonus Enable">
+                            <span>Bonus off</span>
+                            <span class="panel-item-full">
+                                <span class="panel-item-left"></span>
+                            </span>
+                        </a>
+                    </div>
+                </form>
+                <fieldset class="auth-menu">
+                    <div id="user-menu-legend" class="user-menu-legend">Почтовый ящик</div>
+                    <ul id="user-menu" class="auth-controls">
+                        <li>
+                            <span class="menu-icon-msg">
+                                <span class="menu-text-msg-n" title="0">0</span>
+                                <a href="https://iccup.com/messages/inbox.html" class="menu-icon-msg-n">Почтовый
+                                    ящик</a>
+                            </span>
+                        </li>
+                        <li class="controls-line"></li>
+                        <li>
+                            <span class="menu-icon-ntn">
+                                <span class="menu-text-ntn-y" title="15">15</span>
+                                <a href="https://iccup.com/messages/alertsin.html"
+                                    class="menu-icon-ntn-y">Уведомления</a>
+                            </span>
+                        </li>
+                        <li class="controls-line"></li>
+                        <li>
+                            <a href="https://iccup.com/settings.html" class="menu-icon-settings">Изменить настройки</a>
+                        </li>
+                        <li class="controls-line"></li>
+                        <li>
+                            <a href="https://iccup.com/teams/158075.html" class="menu-icon-team">Страница клана</a>
+                        </li>
+                    </ul>
+                </fieldset>
+            </div>
+
+
+        </div>
+
+        <div class="event-block">
+            <div>
+                <span class="event-name">
+                    <p><b>Все что нужно для комфортной игры - <a
+                                href="https://iccup.com/store/buyItem/76/step1.html">Двухдневный Экспресс ПАК</a></b>
+                    </p>
+                </span>
+            </div>
+        </div>
+        <div class="single-page _container">
+            <div class="error-3">
+                <div class="mess-y">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="success-3">
+                <div class="mess-y">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="body-ticket">
+                <div class="header-tracker">
+                    <h2 class="title-tracker"><a href="https://iccup.com/bugtracker.html">Багтрекер - служба по отлову
+                            багов по новой iCCup DotA</a></h2>
+                </div>
+
+                <div class="article detail">
+                    <div class="ticket__outer">
+                        <div class="ticket__header">
+                            <div class="poll">
+                                <span class="poll-score">0</span>
+                                <span class="poll-text">Голосов</span>
+                                <a href="https://iccup.com/json/rateBug/5243/1.html"
+                                    class="vote-top blog-rate left">vote top</a>
+                                <a href="https://iccup.com/json/rateBug/5243/-1.html"
+                                    class="vote-bottom blog-rate left">vote bottom</a>
+                            </div>
+                            <div class="ticket-info">
+                                <div class="ticket-head">
+                                    <h2 class="ticket__title">Абаддон/пасивка</h2>
+                                    <div class="ticket-meta">
+                                        <div class="ticket-status">
+                                            <span class="ticket-pending">Новый</span>
+                                        </div>
+                                        <div class="ticket-type type-dota">type: dota</div>
+                                    </div>
+                                </div>
+                                <div class="meta-middle">
+                                    <div class="meta-author"><a href="https://iccup.com/gamingprofile/Aelanth.html"
+                                            class="profile-view-link">Aelanth</a></div>
+                                    <div class="meta-date">today @ 11:16 CET</div>
+                                    <div class="meta-comments"><a href="https://iccup.com/bugtracker/5243.html#0">0
+                                            Комментариев</a></div>
+                                    <div class="meta__actions">
+                                        <a href="https://iccup.com/bugtracker/editbug/5243.html" class="edit-bug">Edit
+                                            Bug</a>
+                                        <div id="tActions">
+                                            <div class="tAdmin">
+                                                <a href="javascript:void(0);" class="tLink" id="tLink">
+                                                    <span class="tTitle">Опции темы</span>
+                                                </a>
+                                            </div>
+                                            <div id="tActionsList" class="hide right" actiontype="close">
+                                                <div class="theme-modal">
+                                                    <ul class="ulActions">
+                                                        <li>
+                                                            <a class="approved" rel="5243"
+                                                                href="https://iccup.com/json/changeBugStatus/5243/approved.html">
+                                                                <i class="theme-circle t-approve"></i>
+                                                                <span>Принят</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="checked" rel="5243"
+                                                                href="https://iccup.com/json/changeBugStatus/5243/checked.html">
+                                                                <i class="theme-circle t-approve"></i>
+                                                                <span>Проверен</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="fixed" rel="5243"
+                                                                href="https://iccup.com/json/changeBugStatus/5243/fixed.html">
+                                                                <i class="theme-circle t-approve"></i>
+                                                                <span>Исправлен</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a class="inactive" rel="5243"
+                                                                href="https://iccup.com/json/changeBugStatus/5243/inactive.html">
+                                                                <i class="theme-circle t-trash"></i>
+                                                                <span>Неактуален</span>
+                                                            </a>
+                                                        </li>
+                                                        <li style="border: none;">
+                                                            <a class="delete" rel="5243"
+                                                                href="https://iccup.com/json/deleteBug/5243.html">
+                                                                <i class="theme-circle t-remove"></i>
+                                                                <span>Удалить</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <p>
+                                Пасивка абы не работает на него под репелом омника.
+                                Также она не работает на него при атаке союзных юнитов.
+                            </p>
+                            <div class="file-dl">
+                                <div class="replay-time">
+                                    <div class="replay-time__title">Точное время в реплее, где проявляется баг:</div>
+                                    <div class="replay-time__time">00:15:00</div>
+                                </div>
+                                <a href="https://iccup.com/replays/2428522.html" class="file-dl__btn btn btn-success">
+                                    <i class="ico ico-download"></i>
+                                    <span>Скачать реплей</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comments__title">Комментарии</div>
+                    <div class="comment-form mt-4 pt-1 px-2 border-box col-12 mx-auto">
+                        <h3>Оставить комментарий</h3>
+                        <form method="POST" action="https://iccup.com/ajax/addcomment/" id="comment-form"
+                            data-gtm-form-interact-id="0">
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <input type="hidden" name="cid" value="5243">
+                                    <input type="hidden" name="type" value="6">
+                                    <input type="hidden" name="token" value="e405706c22b8c899a592b55f3a763387">
+                                    <input type="hidden" name="parent" value="0">
+                                    <div class="form-tarea">
+                                        <textarea tabindex="2" name="comment" id="comment" class="form-control"
+                                            style="height: 200px; overflow: hidden;"
+                                            data-gtm-form-interact-field-id="0"></textarea>
+                                        <div class="form-actions" id="fa">
+
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-bold-text"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 448 448">
+                                                            <path
+                                                                d="M321.939 210.326C340.689 188.055 352 159.322 352 128 352 57.42 294.578 0 224 0H64v448h192c70.578 0 128-57.421 128-128 0-46.479-24.898-87.248-62.061-109.674zM160 64h50.75c27.984 0 50.75 28.71 50.75 64s-22.766 64-50.75 64H160V64zm79.5 320H160V256h79.5c29.225 0 53 28.71 53 64s-23.775 64-53 64z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-italic-text"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 97.861 97.861" class="e-italic-text">
+                                                            <path
+                                                                d="M87.494.763A2.003 2.003 0 0 0 85.923 0H32.411a2 2 0 0 0-1.944 1.53l-2.204 9.115a1.998 1.998 0 0 0 1.944 2.47H49.01l-17.2 71.631H14.145a2 2 0 0 0-1.944 1.529L9.996 95.39a2.002 2.002 0 0 0 1.944 2.471h53.512c.924 0 1.727-.633 1.943-1.53l2.204-9.114a2.002 2.002 0 0 0-1.944-2.471H49.133l17.199-71.631h17.385c.924 0 1.727-.632 1.943-1.529l2.205-9.115a1.999 1.999 0 0 0-.371-1.708z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-underline-text"><span><svg
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
+                                                            class="e-underline-text">
+                                                            <path
+                                                                d="M2 15h12v1H2v-1zM11 0v8.4C11 9.9 9.9 11 8.4 11h-.8C6.1 11 5 9.9 5 8.4V0H2v8.4C2 11.5 4.5 14 7.6 14h.9c3.1 0 5.6-2.5 5.6-5.6V0H11z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-strike-text"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                            class="e-strike-text">
+                                                            <path
+                                                                d="M10.5 7c-.5-.3-1-.5-1.4-.7-2-.9-2.1-1.1-2-1.9s.4-1 .6-1.2c.9-.5 2.8-.1 3.5.2L12.3.6C11.9.4 8.6-.8 6.2.6c-.8.5-1.9 1.5-2.1 3.4-.2 1.3.1 2.3.7 3H0v1h16V7h-5.5zM7.7 9s.1 0 .1.1c2 .9 2.4 1.2 2.2 2.5-.2.9-.5 1.1-.8 1.3-1.1.6-3.3 0-4.4-.5L3.6 15c.3.1 2.3 1 4.5 1 .9 0 1.8-.2 2.6-.6.9-.5 2-1.4 2.4-3.4.2-1.3 0-2.3-.4-3.1h-5z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-text e-modal" id="e-text" action="true"><span><svg
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                            class="e-text">
+                                                            <g fill="#999999">
+                                                                <path
+                                                                    d="M91.428 144.74H0v-20.603h70.825V70.825h111.647v20.603H91.428zM355.026 512H156.974v-20.603h177.449v-88.34h-53.312V70.825h121.946v53.312h88.34V0H512v144.74H382.454V91.428h-80.74v291.026h53.312z">
+                                                                </path>
+                                                            </g>
+                                                            <path id="e-text-fill"
+                                                                d="M0 0v106.624h53.312V53.312h156.974v367.26h-53.312v53.31H316.91v-53.31h-53.312V53.312h156.974v53.312h53.31V0z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-smile e-modal" id="e-smile" smile="true"><span><svg
+                                                            xmlns="http://www.w3.org/2000/svg" class="e-smile"
+                                                            viewBox="0 0 64 64">
+                                                            <g id="face-stroke">
+                                                                <circle cx="32" cy="32" r="32" id="face"></circle>
+                                                                <path
+                                                                    d="M32 0C14.355 0 0 14.355 0 32s14.355 32 32 32 32-14.355 32-32S49.645 0 32 0zm0 60C16.561 60 4 47.439 4 32S16.561 4 32 4s28 12.561 28 28-12.561 28-28 28z">
+                                                                </path>
+                                                                <circle cx="20.518" cy="21.361" r="4.338"></circle>
+                                                                <circle cx="43.48" cy="21.361" r="4.338"></circle>
+                                                                <path
+                                                                    d="M52.541 36.568a2.003 2.003 0 0 0-2.488 1.344c-.035.119-3.739 11.947-18.053 11.947-14.219 0-17.904-11.467-18.055-11.955a2.004 2.004 0 0 0-2.486-1.336 2 2 0 0 0-1.344 2.489c.045.148 4.627 14.802 21.885 14.802s21.84-14.654 21.885-14.803a2 2 0 0 0-1.344-2.488z">
+                                                                </path>
+                                                            </g>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-center"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 512 512" class="e-center">
+                                                            <path
+                                                                d="M0 32h512v64H0V32zm96 96h320v64H96v-64zm0 192h320v64H96v-64zM0 224h512v64H0v-64zm0 192h512v64H0v-64z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-link"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                            class="e-link" viewBox="0 0 457.03 457.03">
+                                                            <path
+                                                                d="M421.512 207.074l-85.795 85.767c-47.352 47.38-124.169 47.38-171.529 0-7.46-7.439-13.296-15.821-18.421-24.465l39.864-39.861c1.895-1.911 4.235-3.006 6.471-4.296 2.756 9.416 7.567 18.33 14.972 25.736 23.648 23.667 62.128 23.634 85.762 0l85.768-85.765c23.666-23.664 23.666-62.135 0-85.781-23.635-23.646-62.105-23.646-85.768 0l-30.499 30.532c-24.75-9.637-51.415-12.228-77.373-8.424l64.991-64.989c47.38-47.371 124.177-47.371 171.557 0 47.357 47.369 47.357 124.178 0 171.546zm-226.804 141.03l-30.521 30.532c-23.646 23.634-62.128 23.634-85.778 0-23.648-23.667-23.648-62.138 0-85.795l85.778-85.767c23.665-23.662 62.121-23.662 85.767 0 7.388 7.39 12.204 16.302 14.986 25.706 2.249-1.307 4.56-2.369 6.454-4.266l39.861-39.845c-5.092-8.678-10.958-17.03-18.421-24.477-47.348-47.371-124.172-47.371-171.543 0L35.526 249.96c-47.366 47.385-47.366 124.172 0 171.553 47.371 47.356 124.177 47.356 171.547 0l65.008-65.003c-25.972 3.826-52.644 1.213-77.373-8.406z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-image"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                            class="e-image" viewBox="0 0 550.801 550.8">
+                                                            <path
+                                                                d="M515.828 61.201H34.972C15.659 61.201 0 76.859 0 96.172V454.63c0 19.312 15.659 34.97 34.972 34.97h480.856c19.314 0 34.973-15.658 34.973-34.971V96.172c0-19.313-15.658-34.971-34.973-34.971zm0 34.971V350.51l-68.92-62.66c-10.359-9.416-26.289-9.04-36.186.866l-69.752 69.741-137.532-164.278c-10.396-12.415-29.438-12.537-39.99-.271L34.972 343.219V96.172h480.856zm-148.627 91.8c0-26.561 21.523-48.086 48.084-48.086 26.562 0 48.086 21.525 48.086 48.086s-21.523 48.085-48.086 48.085c-26.56.001-48.084-21.524-48.084-48.085z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-spoiler"><span><svg xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 408 408" class="e-spoiler">
+                                                            <path
+                                                                d="M86.7 372.3l35.7 35.7 81.6-81.6 81.6 81.6 35.7-35.7L204 255 86.7 372.3zM321.3 35.7L285.6 0 204 81.6 122.4 0 86.7 35.7 204 153 321.3 35.7z">
+                                                            </path>
+                                                        </svg></span></a></div>
+                                            <div class="form-action"><a href="https://iccup.com/#"
+                                                    class="e-youtube-link"><span><svg viewBox="0 -77 512.002 512"
+                                                            class="e-youtube-link" xmlns="http://www.w3.org/2000/svg">
+                                                            <path id="youtube"
+                                                                d="M501.453 56.094c-5.902-21.934-23.195-39.223-45.125-45.13C416.262 0 255.996 0 255.996 0S95.734 0 55.668 10.547C34.16 16.449 16.445 34.164 10.543 56.094 0 96.156 0 179.242 0 179.242s0 83.504 10.543 123.149c5.906 21.93 23.195 39.222 45.129 45.129C96.156 358.484 256 358.484 256 358.484s160.262 0 200.328-10.546c21.934-5.903 39.223-23.196 45.129-45.125C512 262.745 512 179.663 512 179.663s.422-83.508-10.547-123.57zm0 0">
+                                                            </path>
+                                                            <path d="M204.969 256l133.27-76.758-133.27-76.758zm0 0"
+                                                                fill="#fff"></path>
+                                                        </svg></span></a></div>
+                                        </div>
+                                        <div class="modal-dialog modal-smiles fade">
+                                            <div class="modal-content">
+                                                <ul class="smiles-nav smiles-list">
+                                                    <li><a href="https://iccup.com/#" class="active">Новые</a></li>
+                                                    <li><a href="https://iccup.com/#">Олдскул</a></li>
+                                                    <li><a href="https://iccup.com/#">PRO</a></li>
+                                                </ul>
+
+                                                <div class="smiles-contents show">
+                                                    <div class="container-smiles">
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm0: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm0.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm1: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm1.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm2: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm2.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm3: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm3.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm4: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm4.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm5: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm5.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm6: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm6.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm7: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm7.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm8: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm8.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm9: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm9.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm10: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm10.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm11: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm11.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm12: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm12.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm13: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm13.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm14: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm14.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm15: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm15.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm16: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm16.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm17: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm17.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm18: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm18.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm19: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm19.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm20: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm20.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm21: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm21.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm22: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm22.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm23: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm23.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm24: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm24.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm25: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm25.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm26: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm26.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm27: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm27.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm28: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm28.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm29: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm29.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm30: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm30.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm31: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm31.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm32: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm32.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm33: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm33.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm34: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm34.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm35: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm35.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm36: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm36.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm37: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm37.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm38: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm38.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm39: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm39.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm40: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm40.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm41: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm41.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm42: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm42.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm43: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm43.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm44: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm44.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm45: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm45.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm46: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm46.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm47: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm47.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm48: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm48.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm49: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm49.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm50: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm50.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm51: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm51.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm52: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm52.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm53: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm53.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm54: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm54.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm55: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm55.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm56: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm56.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm57: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm57.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm58: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm58.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm59: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm59.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm60: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm60.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm61: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm61.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm62: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm62.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm63: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm63.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm64: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm64.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm65: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm65.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm66: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm66.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nsm67: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nsm67.png"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="smiles-contents">
+                                                    <div class="container-smiles smiles-old">
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :agr: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/agr.gif"
+                                                                    alt="agr"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :agree: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/agree.gif"
+                                                                    alt="agree"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :anger: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/anger.gif"
+                                                                    alt="anger"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :ara: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/ara.gif"
+                                                                    alt="ara"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :avtorklif: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/avtorklif.gif"
+                                                                    alt="avtorklif"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :boff: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/boff.gif"
+                                                                    alt="boff"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :boss: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/boss.gif"
+                                                                    alt="boss"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :cap: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/cap.gif"
+                                                                    alt="cap"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :car: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/car.gif"
+                                                                    alt="car"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :cartman: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/cartman.gif"
+                                                                    alt="cartman"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :cray: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/cray.gif"
+                                                                    alt="cray"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :crazy: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/crazy.gif"
+                                                                    alt="crazy"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :dance: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/dance.gif"
+                                                                    alt="dance"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :ebana: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/ebana.gif"
+                                                                    alt="ebana"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :excited: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/excited.gif"
+                                                                    alt="excited"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :gamer: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/gamer.gif"
+                                                                    alt="gamer"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :girl: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/girl.gif"
+                                                                    alt="girl"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :grin: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/grin.gif"
+                                                                    alt="grin"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :hmm: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/hmm.gif"
+                                                                    alt="hmm"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :hz: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/hz.gif"
+                                                                    alt="hz"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :ireful: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/ireful.gif"
+                                                                    alt="ireful"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :kenny: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/kenny.gif"
+                                                                    alt="kenny"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :kiss: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/kiss.gif"
+                                                                    alt="kiss"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :mad: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/mad.gif"
+                                                                    alt="mad"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :madgamer: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/madgamer.gif"
+                                                                    alt="madgamer"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :mail: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/mail.gif"
+                                                                    alt="mail"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nono: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nono.gif"
+                                                                    alt="nono"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nutzo: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nutzo.gif"
+                                                                    alt="nutzo"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :opasnoste: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/opasnoste.gif"
+                                                                    alt="opasnoste"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pilot: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pilot.gif"
+                                                                    alt="pilot"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pnh: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pnh.gif"
+                                                                    alt="pnh"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :popcorm: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/popcorm.gif"
+                                                                    alt="popcorm"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pray: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pray.gif"
+                                                                    alt="pray"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :punish: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/punish.gif"
+                                                                    alt="punish"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :rickroll: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/rickroll.gif"
+                                                                    alt="rickroll"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :sad: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/sad.gif"
+                                                                    alt="sad"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :secret: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/secret.gif"
+                                                                    alt="secret"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :shok: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/shok.gif"
+                                                                    alt="shok"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :smile: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/smile.gif"
+                                                                    alt="smile"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :spiteful: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/spiteful.gif"
+                                                                    alt="spiteful"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :sun: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/sun.gif"
+                                                                    alt="sun"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :super: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/super.gif"
+                                                                    alt="super"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :terpilo: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/terpilo.gif"
+                                                                    alt="terpilo"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :whistle: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/whistle.gif"
+                                                                    alt="whistle"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :cranered: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/crane-red.png"
+                                                                    alt="crane"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :craneyellow: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/crane-yellow.png"
+                                                                    alt="crane"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :cranegreen: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/crane-green.png"
+                                                                    alt="crane"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :crabe: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/crabe.png"
+                                                                    alt="crabe"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :facepalm: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/facepalm.png"
+                                                                    alt="facepalm"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :nyan: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/nyan.gif"
+                                                                    alt="nyan"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :stewie: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/stewie.png"
+                                                                    alt="stewie"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pedobear: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pedobear.png"
+                                                                    alt="pedobear"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :drevil: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/drevil.png"
+                                                                    alt="drevil"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :sombrero: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/sombrero.gif"
+                                                                    alt="sombrero"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :chuck: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/chuck.png"
+                                                                    alt="chuck"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="smiles-contents">
+                                                    <div class="container-smiles   ">
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :hype: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/hype.gif"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :bang: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/bang.gif"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :siren: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/siren.gif"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :scaredcat: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/scaredcat.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :bpob: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/bpob.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :suka: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/suka.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro1: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro1.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro2: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro2.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro3: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro3.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro4: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro4.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro5: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro5.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro6: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro6.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro7: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro7.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro8: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro8.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro9: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro9.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro10: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro10.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro11: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro11.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro12: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro12.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro13: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro13.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro14: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro14.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro15: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro15.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro16: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro16.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro17: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro17.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro18: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro18.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro19: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro19.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro20: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro20.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro21: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro21.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro22: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro22.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro23: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro23.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro24: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro24.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro25: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro25.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro26: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro26.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro27: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro27.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro28: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro28.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro29: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro29.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro30: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro30.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro31: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro31.png"></a>
+                                                        </div>
+                                                        <div class="single-smile">
+                                                            <a href="javascript:;" totxt=" :pro32: "><img
+                                                                    src="./iCCup — Абаддон_пасивка_files/pro32.png"></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-dialog modal-text fade">
+                                            <div class="modal-content" id="#mc">
+                                                <span class="text-red-editor"></span><span
+                                                    class="text-blue-editor"></span><span
+                                                    class="text-green-editor"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-12">
+                                    <input type="submit" name="registration" value="Оставить сообщение"
+                                        id="comment-submit" class="btn btn-primary right">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="error-3">
+                <div class="mess-y">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <div class="success-3">
+                <div class="mess-y">
+                    <ul>
+                    </ul>
+                </div>
+            </div>
+            <script type="text/javascript">
+                const modal = document.querySelector(".modal");
+                if (modal) {
+                    const trigger = document.querySelector(".trigger");
+                    const closeButton = document.querySelector(".close-button");
+
+                    const toggleModal = () => modal.classList.toggle("show-modal");
+                    const windowOnClick = (event) => (event.target === modal) && toggleModal();
+
+                    trigger.addEventListener("click", toggleModal);
+                    closeButton.addEventListener("click", toggleModal);
+                    window.addEventListener("click", windowOnClick);
+                }
+            </script>
+        </div>
+
+        <div class="tg-list">
+            <label class="tg-title" for="cb1">Десктоп версия</label>
+            <div class="tg-list-item">
+                <input class="tgl tgl-light" id="cb1" type="checkbox">
+                <label class="tgl-btn" for="cb1"></label>
+            </div>
+            <label class="tg-title" for="cb1">Мобильная версия</label>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer" class="footer">
+
+
+        <div class="footer-logo left"><a href="https://iccup.com/">iCCup</a></div>
+        <ul class="footer-links left">
+            <li><a href="https://iccup.com/dota/dota_start.html">Играть бесплатно</a></li>
+            <li><a href="https://iccup.com/devjob.html">Разработка</a></li>
+            <li><a href="https://iccup.com/community/">Игровые Форумы</a></li>
+            <li><a href="https://iccup.com/staff.html">iCCup Команда</a></li>
+            <li><a href="https://iccup.com/bans.html">Список банов</a></li>
+            <li><a href="https://iccup.com/ads.html">Реклама на iCCup</a></li>
+            <li><a href="https://iccup.com/joincrew.html">iCCup Вакансии</a></li>
+            <li><a href="https://iccup.com/contacts.html">Контакты</a></li>
+            <li><a href="https://iccup.com/support.html">Помощь (админка) </a></li>
+            <li class="footer-li-flags">
+                <div class="flags d-flex">
+                    <div class="active-flag flags-el">
+                        <span class="flag-russian"></span>
+                    </div>
+                    <div class="flags-el"><a href="https://iccup.com/en/bugtracker/5243" title="English Language">
+                            <span class="flag-english"></span></a>
+                    </div>
+                    <div class="flags-el"><a href="https://iccup.com/uz/bugtracker/5243" title="Uzbek Language">
+                            <span class="flag-uzbek"></span></a>
+                    </div>
+                    <div class="flags-el"><a href="https://iccup.com/kz/bugtracker/5243" title="Kazakh Language">
+                            <span class="flag-kazakh"></span></a>
+                    </div>
+                    <div class="flags-el"><a href="https://iccup.com/tr/bugtracker/5243" title="Turkish Language">
+                            <span class="flag-turkish"></span></a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="footer-social left">
+            <span class="footer-privacy"><a href="https://iccup.com/terms.html">Условия использования 18+</a></span>
+            <span class="footer-vk"><a href="https://vk.com/iccupcom" title="VKontakte" target="_blank">vk</a></span>
+            <span class="footer-discord"><a href="https://discord.gg/HXzE6x4rXN" target="_blank"
+                    title="Discord Main">discord main</a></span>
+            <span class="footer-discord2"><a href="https://discord.gg/zY8FS6Rvea" target="_blank"
+                    title="Discord Custom">discord custom</a></span>
+            <span class="footer-youtube"><a href="https://www.youtube.com/c/InternationalCyberCup" title="Youtube"
+                    target="_blank">youtube</a></span>
+            <span class="footer-tg"><a href="https://t.me/iCCup" title="telegram" target="_blank">telegram</a></span>
+
+        </div>
+
+    </div>
+    <div class="menuSelfOptions hide" id="menu-window">
+        <div class="menuTitle">username</div>
+        <div class="menuUser">
+            <span class="profileIconSelf"><a href="https://iccup.com/gamingprofile/username.html">Персональный
+                    профиль</a></span>
+            <span class="profileIconFriend" id="span-fr"><a class="add-friend"
+                    href="https://iccup.com/json/addfriend/username.html">Добавить в друзья</a></span>
+            <span class="profileIconGaming"><a href="https://iccup.com/gamingprofile/username.html">Игровой
+                    профиль</a></span>
+        </div>
+    </div>
+    <div class="menuSelfOptions hide" id="menu-window-self">
+        <div class="menuTitle">username</div>
+        <div class="menuUser">
+            <span class="profileIconSelf"><a href="https://iccup.com/gamingprofile/username.html">Персональный
+                    профиль</a></span>
+            <span class="profileIconGaming"><a href="https://iccup.com/gamingprofile/username.html">Игровой
+                    профиль</a></span>
+        </div>
+    </div>
+    <div id="notification">
+    </div>
+
+
+
+
+</body>
+
+</html>

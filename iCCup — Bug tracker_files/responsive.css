@@ -1,0 +1,480 @@
+@media (max-width: 991.98px) {
+  .single-page {
+    width: 100%;
+  }
+
+  .ticket-title p {
+    max-height: 83px;
+  }
+
+  h2.title-tracker {
+    font-size: 21px;
+  }
+
+  /*  */
+
+
+
+}
+
+@media (max-width: 767.98px) {
+
+
+
+  .tracker-link {
+    padding: 7px 7px 8px;
+  }
+
+  .ticket-title h3 {
+    font-size: 14px;
+  }
+
+  ul.tracker-nav li {
+    font-size: 11px;
+  }
+
+  .ticket-title p {
+    width: 100%;
+    max-height: 100%;
+
+    font-size: 11px;
+
+  }
+
+  .ticket-status span {
+    margin-right: 5px;
+  }
+
+  .publisher-nick {
+    font-size: 12px;
+  }
+
+  .event-name {
+    font-size: 16px;
+  }
+
+  h2.title-tracker {
+    font-size: 18px;
+  }
+
+  a.vote-top,
+  a.vote-bottom,
+  span.vote-top,
+  span.vote-bottom {
+    width: 29px;
+    height: 25px;
+  }
+
+  span.poll-score {
+    font-size: 21px;
+  }
+
+  .poll {
+    width: 58px;
+    height: 73px;
+  }
+
+  .ticket__title {
+    font-size: 20px;
+  }
+
+  .meta-middle {
+    flex-wrap: wrap;
+  }
+
+  .meta__actions {
+    margin: 0;
+  }
+
+  .meta-author,
+  .meta-date,
+  .meta-comments,
+  .meta-tag {
+    margin-bottom: 15px;
+  }
+
+  .article.summary .abstract p,
+  .content p,
+  .content ul,
+  .content ol,
+  .article-footer {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .btn {
+    font-size: 11px;
+  }
+
+  /*  */
+  .tracker-info {
+    flex-wrap: wrap;
+  }
+
+  .form-group label {
+    font-size: 16px;
+  }
+
+  .dz-box .dz-message span {
+    padding: 5px;
+  }
+
+}
+
+@media (max-width: 575.98px) {
+
+  .auth-section {
+    width: 210px;
+    min-height: 111px;
+  }
+
+  .event-name {
+    font-size: 11px;
+  }
+
+  h2.title-tracker {
+    font-size: 12px;
+    padding: 2px 0 2px 39px;
+
+  }
+
+  .types-link {
+    padding: 5px 10px 7px;
+  }
+
+  .tracker-types__tab {
+    font-size: 13px;
+  }
+
+  .tracker-link {
+    padding: 5px 2px 2px;
+  }
+
+  ul.tracker-nav li {
+    font-size: 9px;
+  }
+
+  .sort-asc svg,
+  .sort-dsc svg {
+    width: 8px;
+  }
+
+  .tr-sort {
+    padding: auto;
+  }
+
+  a.vote-top,
+  a.vote-bottom,
+  span.vote-top,
+  span.vote-bottom {
+    width: 20px;
+    height: 15px;
+  }
+
+  .poll {
+    width: 40px;
+    height: 52px;
+  }
+
+  span.poll-score {
+    font-size: 15px;
+  }
+
+  span.poll-text {
+    font-size: 8px;
+  }
+
+  .ticket-title h3 {
+    font-size: 12px;
+  }
+
+
+
+  .ticket-status span {
+    font-size: 6px;
+    width: 60px;
+  }
+
+  .ticket-type {
+    font-size: 7px;
+    width: 60px;
+    padding: 4px 3px 4px;
+  }
+
+  .publisher-nick {
+    font-size: 7px;
+  }
+
+  .meta-author,
+  .meta-date,
+  .meta-comments,
+  .meta-tag {
+    font-size: 7px;
+    line-height: 11px;
+    padding-left: 20px;
+  }
+
+  .ticket-title p {
+    font-size: 8px;
+    line-height: 12px;
+  }
+
+  .meta-comments {
+    padding-right: 3px;
+  }
+
+  .pagination a,
+  .pagelist a {
+    margin: auto;
+    min-width: 23px;
+    line-height: 22px;
+    min-height: 23px;
+  }
+
+  .pagination li,
+  .pagelist li {
+    font-size: 11px;
+  }
+
+  .tg-title {
+    padding: 0 6px;
+    font-size: 10px;
+  }
+
+  .tgl-btn {
+    width: 35px;
+    height: 20px;
+  }
+
+  /*  */
+
+  .ticket__title {
+    font-size: 17px;
+  }
+
+  .ticket-status span {
+    margin-right: auto;
+  }
+
+  .meta-author,
+  .meta-date,
+  .meta-comments,
+  .meta-tag {
+    font-size: 10px;
+    line-height: 17px;
+    margin-bottom: 10px;
+  }
+
+  .edit-bug {
+    font-size: 11px;
+    padding: 0 10px 0 0;
+  }
+
+  a.tLink {
+    padding: 7px 19px 5px 8px;
+    min-width: 102px;
+    font-size: 9px;
+  }
+
+  .replay-time__time {
+    font-size: 10px;
+  }
+
+  .replay-time {
+    width: 190px;
+    margin: 0 15px 0 0;
+    padding: 0 10px;
+  }
+
+  .replay-time__title {
+    font-size: 10px;
+
+    text-align: center;
+  }
+
+  .btn {
+    font-size: 8px;
+    padding: 6px 13px;
+  }
+
+  .comments__title {
+    font-size: 16px;
+    padding: 5px 0 5px 9px;
+  }
+
+  .form-action a {
+    min-width: 25px;
+  }
+
+  .comment-form h3 {
+    font-size: 16px;
+  }
+
+  .tg-list {
+    padding-top: 10px;
+  }
+
+  .ticket__outer {
+    padding: auto;
+  }
+
+  /*  */
+  .bugreport__form {
+    width: 80%;
+  }
+
+  .bugreport__info {
+    width: 100%;
+  }
+
+  .tracker-menu {
+    font-size: 10px;
+  }
+
+  .tracker-menu .btn {
+    font-size: 9px;
+  }
+
+  .form-group label {
+    font-size: 11px;
+  }
+
+  input,
+  select {
+    font-size: 12px;
+  }
+
+  .form-group {
+    margin-bottom: 6px;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+
+  .dz-box .dz-message span {
+    font-size: 12px;
+  }
+
+  .dz-box {
+    min-height: 115px;
+  }
+
+  .simple-info__heading {
+    font-size: 13px;
+  }
+
+  .simple-info__body {
+    font-size: 11px;
+  }
+
+  .simple-footer {
+    padding-top: 5px;
+  }
+}
+
+@media (max-width: 390px) {
+
+
+  ul.tracker-nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul.tracker-nav li {
+    font-size: 11px;
+  }
+
+
+
+  .poll {
+    margin-bottom: 15px;
+  }
+
+  .ticket-title {
+    width: 100%;
+    padding: 0 0 0 0;
+    margin-bottom: 15px;
+  }
+
+
+
+  .ticket-type {
+    margin: 0 0 10px;
+
+  }
+
+  .ticket-title h3 {
+    width: 100px;
+  }
+
+  .ticket-title p {
+
+    width: 100px;
+  }
+
+  .meta-comments a,
+  .comment-data {
+    padding: 5px 0px 0;
+  }
+
+  .poll {
+    margin-right: 3px;
+  }
+
+  /*  */
+
+  .ticket__title {
+    font-size: 15px;
+  }
+
+  .edit-bug {
+    font-size: 10px;
+  }
+
+  .article.summary .abstract p,
+  .content p,
+  .content ul,
+  .content ol,
+  .article-footer {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .replay-time {
+    width: 150px;
+    margin: 0 10px 0 0;
+    padding: 0px 10px;
+  }
+
+  .replay-time__title {
+    font-size: 9px;
+  }
+
+  .comments__title {
+    font-size: 14px;
+  }
+
+  .comment-form h3 {
+    font-size: 15px;
+  }
+
+  .form-action a {
+    min-width: 20px;
+  }
+
+
+  /*  */
+  .simple-info__heading {
+    font-size: 12px;
+  }
+
+  .simple-info__body {
+    font-size: 10px;
+  }
+
+  .form-check label {
+    font-size: 9px;
+  }
+
+}
