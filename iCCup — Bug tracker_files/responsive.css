@@ -13,7 +13,11 @@
 
   /*  */
 
+  .tracker-menu {
 
+    width: 100%;
+    justify-content: flex-end;
+  }
 
 }
 
@@ -238,7 +242,7 @@
 
   .tg-title {
     padding: 0 6px;
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .tgl-btn {
@@ -320,7 +324,7 @@
 
   /*  */
   .bugreport__form {
-    width: 80%;
+    width: 100%;
   }
 
   .bugreport__info {
@@ -328,11 +332,11 @@
   }
 
   .tracker-menu {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .tracker-menu .btn {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   .form-group label {
@@ -429,7 +433,7 @@
   }
 
   .edit-bug {
-    font-size: 10px;
+    font-size: 11px;
   }
 
   .article.summary .abstract p,
@@ -448,7 +452,7 @@
   }
 
   .replay-time__title {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   .comments__title {
@@ -466,15 +470,15 @@
 
   /*  */
   .simple-info__heading {
-    font-size: 12px;
+    font-size: 13px;
   }
 
   .simple-info__body {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .form-check label {
-    font-size: 9px;
+    font-size: 11px;
   }
 
 }
