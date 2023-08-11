@@ -1,0 +1,33 @@
+@media (max-width: 991.98px) {
+
+    .complaints {
+        width: auto;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .body-block {
+        width: 100%;
+    }
+
+    .title-block {
+        width: 457px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .title-block {
+        width: 286px;
+    }
+}
+
+@media (max-width: 390px) {
+    .title-block {
+        width: 194px;
+    }
+
+    .qa-links li {
+        width: 260px;
+    }
+}
