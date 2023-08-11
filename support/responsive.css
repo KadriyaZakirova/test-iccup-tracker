@@ -1,3 +1,23 @@
+@media (max-width: 1200px) {
+    .menu-block {
+        width: 100%;
+        display: flex;
+    }
+
+    .menu-block li a {
+        padding: 0;
+        width: 124px;
+    }
+
+    .menu-block li:first-child {
+        padding: 0 55px 9px 10px;
+    }
+}
+
+
+
+
+
 @media (max-width: 991.98px) {
 
     .complaints {
@@ -19,6 +39,19 @@
 @media (max-width: 575.98px) {
     .title-block {
         width: 286px;
+    }
+
+    .menu-block {
+        padding: 7px 0 7px 10px;
+        display: block;
+    }
+
+    .menu-block li a {
+        margin-bottom: 10px;
+    }
+
+    .menu-block li:first-child {
+        padding: 0 55px 13px 0px;
     }
 }
 
